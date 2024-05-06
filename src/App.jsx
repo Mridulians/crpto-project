@@ -1,5 +1,5 @@
-import { Element } from "react-scroll";
-import { Fade } from "react-reveal";
+// import { Element } from "react-scroll";
+// import { Fade } from "react-reveal";
 
 import About from "./components/About";
 import City from "./components/City";
@@ -16,41 +16,18 @@ const App = () => {
     <>
       <Navbar />
 
-      <Element name="home">
-        <Fade>
-          <Hero />
-        </Fade>
-      </Element>
-      <Element name="features">
-        <Fade>
-          <Features />
-        </Fade>
-      </Element>
-      <Element name="packages">
-        <Fade>
-          <Packages />
-        </Fade>
-      </Element>
-      <Element name="about">
-        <Fade>
-          <About />
-        </Fade>
-      </Element>
-      <Element name="testimonials">
-        <Fade>
-          <Testimonials reviews={reviews} />
-        </Fade>
-      </Element>
-      <Element name="cta">
-        <Fade>
-          <City />
-        </Fade>
-      </Element>
-      <Element name="footer">
-        <Fade>
-          <Footer />
-        </Fade>
-      </Element>
+      <Hero />
+
+      <Features />
+      <Packages />
+
+      <About />
+
+      <Testimonials reviews={reviews} />
+
+      <City />
+
+      <Footer />
     </>
   );
 };
