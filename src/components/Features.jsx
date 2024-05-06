@@ -30,7 +30,9 @@ const Features = () => {
             </svg>
             <h3 className="my-3 text-3xl font-semibold text-white">Security</h3>
             <div className="space-y-1 leading-tight">
-              <p>Protecting your information</p>
+              <p className=" text-white text-center">
+                Protecting your information
+              </p>
             </div>
           </div>
           <div className="flex flex-col items-center p-4">
@@ -52,7 +54,9 @@ const Features = () => {
               Daily payments
             </h3>
             <div className="space-y-1 leading-tight">
-              <p>Receive your rewards in your wallet</p>
+              <p className=" text-white text-center">
+                Receive your rewards in your wallet
+              </p>
             </div>
           </div>
           <div className="flex flex-col items-center p-4">
@@ -75,7 +79,9 @@ const Features = () => {
               Support 24/7
             </h3>
             <div className="space-y-1 leading-tight">
-              <p>Ask anything we will be happy to assist</p>
+              <p className=" text-white text-center">
+                Ask anything we will be happy to assist
+              </p>
             </div>
           </div>
         </div>
