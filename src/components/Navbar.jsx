@@ -2,8 +2,8 @@
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 backdrop-filter backdrop-blur-md ">
-      <header className="p-4   dark:text-gray-100  ">
+    <div className="sticky top-0 z-50 backdrop-filter backdrop-blur-md text-white">
+      <header className="p-4 dark:text-gray-100  ">
         <div className="container flex justify-between h-16 mx-auto">
           <a
             rel="noopener noreferrer"
