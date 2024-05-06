@@ -8,7 +8,7 @@ const About = () => {
       <section className="  dark:text-gray-100">
         <div className="container max-w-xl p-6 py-11 mx-auto space-y-4 lg:px-8 lg:max-w-7xl">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">
+            <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-white">
               How it works
             </h2>
           </div>
@@ -17,7 +17,7 @@ const About = () => {
               <div className="mt-12 space-y-12">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 dark:text-gray-900">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -36,10 +36,10 @@ const About = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                    <h4 className="text-lg font-medium leading-6 text-white">
                       Check in
                     </h4>
-                    <p className="mt-2 dark:text-gray-400">
+                    <p className="mt-2 text-gray-400">
                       Our check-in process ensures that your journey with us
                       begins smoothly and seamlessly. Whether you are a new or
                       returning user, we prioritize your experience, providing
@@ -50,7 +50,7 @@ const About = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 dark:text-gray-900">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 text-gray-900">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -71,10 +71,10 @@ const About = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                    <h4 className="text-lg font-medium leading-6 text-gray-50">
                       Mining
                     </h4>
-                    <p className="mt-2 dark:text-gray-400">
+                    <p className="mt-2 text-gray-400">
                       We utilize cutting-edge technology to engage in the
                       process of mining cryptocurrencies. Our approach ensures
                       efficiency and reliability, providing a seamless
@@ -84,7 +84,7 @@ const About = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-mddark: bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 dark:text-gray-700">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-mddark: bg-violet-400  bg-gradient-to-r from-purple-500 via-purple-600 text-gray-700">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -105,10 +105,10 @@ const About = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                    <h4 className="text-lg font-medium leading-6 text-gray-50">
                       We get profit
                     </h4>
-                    <p className="mt-2 dark:text-gray-400">
+                    <p className="mt-2 text-gray-400">
                       Our mining operations yield profitable returns for our
                       investors. We employ a strategic approach, leveraging the
                       latest technologies to optimize profitability and minimize
@@ -131,19 +131,19 @@ const About = () => {
           <div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div className="lg:col-start-2">
-                <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">
+                <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-50">
                   Our technology
                 </h3>
-                <p className="mt-3 text-lg dark:text-gray-400">
+                <p className="mt-3 text-lg text-gray-400">
                   We provide security and best experience
                 </p>
                 <div className="mt-12 space-y-12">
                   <div className="flex">
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                      <h4 className="text-lg font-medium leading-6 text-gray-50">
                         Cutting-edge Hardware
                       </h4>
-                      <p className="mt-2 dark:text-gray-400">
+                      <p className="mt-2 text-gray-400">
                         We utilize state-of-the-art mining rigs and equipment,
                         ensuring optimal performance and efficiency in
                         cryptocurrency mining.
@@ -152,10 +152,10 @@ const About = () => {
                   </div>
                   <div className="flex">
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                      <h4 className="text-lg font-medium leading-6 text-gray-50">
                         Advanced Software Solution
                       </h4>
-                      <p className="mt-2 dark:text-gray-400">
+                      <p className="mt-2 text-gray-400">
                         Our custom-developed software solutions streamline the
                         mining process, enhancing control, monitoring, and
                         overall productivity
@@ -164,10 +164,10 @@ const About = () => {
                   </div>
                   <div className="flex">
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
+                      <h4 className="text-lg font-medium leading-6 text-gray-50">
                         Innovative Security Measures
                       </h4>
-                      <p className="mt-2 dark:text-gray-400">
+                      <p className="mt-2 text-gray-400">
                         We implement robust security protocols and encryption
                         technologies to safeguard your assets and data,
                         providing you with peace of mind throughout your mining
