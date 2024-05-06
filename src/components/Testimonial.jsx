@@ -32,7 +32,7 @@ const Testimonials = (props) => {
   return (
     <div className="flex flex-col items-center justify-center mt-10 relative">
       {/* <div className="w-full md:max-w-[700px] p-10 transition-all duration-700 hover:shadow-xl rounded-md"> */}
-      <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50 mb-[2rem]">
+      <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-50 mb-[2rem]">
         Reviews
       </h2>
 

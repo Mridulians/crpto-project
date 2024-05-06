@@ -3,13 +3,13 @@
 const City = () => {
   return (
     <div>
-      <section className="py-6   dark:text-gray-50">
+      <section className="py-6  text-gray-50">
         <div className="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-between lg:flex-row">
           <div className="flex flex-col space-y-4 text-center lg:text-left">
             <h1 className="text-5xl font-bold leading-none">
               Start Bit Coining Mining Today!
             </h1>
-            <p className="text-lg dark:text-gray-200 ">
+            <p className="text-lg text-gray-200 ">
               Cloud mining allows you to host Equipment
             </p>
           </div>
